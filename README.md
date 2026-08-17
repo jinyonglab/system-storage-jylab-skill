@@ -124,15 +124,15 @@ python3 scripts/build_report.py /tmp/storage_analysis.json ~/Desktop/storage-rep
 
 ## 发布前检查
 
-- 确认仓库内不存在 `storage_scan*.json`、`storage_analysis*.json`、`*-workbench.html`、`*-report.html` 等运行产物。
-- 确认不存在 `__pycache__/`、`.pyc`、临时日志、系统缩略图等无关文件。
-- 确认 README、SKILL、references 中只保留通用路径示例，不包含个人用户名、个人目录、企业内网地址或真实业务路径。
-- 若准备演示报告截图，先核对截图内是否出现用户名、磁盘名称、项目目录名、聊天软件目录、云盘目录或客户数据。
-- 首次公开发布前，建议在一个干净目录重新打包或重新克隆后再检查一次文件列表。
+- 我在发布前会确认仓库内不存在 `storage_scan*.json`、`storage_analysis*.json`、`*-workbench.html`、`*-report.html` 等运行产物。
+- 我会确认仓库中不存在 `__pycache__/`、`.pyc`、临时日志、系统缩略图等无关文件。
+- 我会确认 README、SKILL、references 中只保留通用路径示例，不包含个人用户名、个人目录、企业内网地址或真实业务路径。
+- 如果我要准备演示报告截图，我会先核对截图内是否出现用户名、磁盘名称、项目目录名、聊天软件目录、云盘目录或客户数据。
+- 首次公开发布前，我会在一个干净目录重新打包或重新克隆后，再检查一次文件列表。
 
 ## 引用与来源说明
 
-- 本项目中的能力边界、目录分级规则、风险提示和报告写法，来源于仓库内的自有说明文件：`SKILL.md`、`references/macos.md`、`references/windows.md`、`references/reporting.md`。
-- 代码与模板的直接实现来源于本仓库文件：`scripts/*.py`、`assets/report_template.html`、`agents/openai.yaml`。
-- README 中若提到平台行为、目录语义或操作建议，默认以本仓库上述文件为准；对外引用或二次分发时，应注明来源为 `system-storage-jylab` 仓库，并保留这类边界说明。
-- 本仓库不附带第三方商业资料、真实用户扫描数据或生产环境样本；如后续补充案例、截图或报告样例，需单独标注数据来源、脱敏方式和适用范围。
+- 我将本项目的能力边界、目录分级规则、风险提示和报告写法，定义在仓库内的这些说明文件中：`SKILL.md`、`references/macos.md`、`references/windows.md`、`references/reporting.md`。
+- 我将代码与模板的直接实现放在本仓库文件中：`scripts/*.py`、`assets/report_template.html`、`agents/openai.yaml`。
+- 我在 README 中提到的平台行为、目录语义和操作建议，默认都以上述仓库文件为准；如果我对外引用或二次分发这套内容，我会注明来源为 `system-storage-jylab` 仓库，并保留这些边界说明。
+- 我不会在本仓库附带第三方商业资料、真实用户扫描数据或生产环境样本；如果后续补充案例、截图或报告样例，我会单独标注数据来源、脱敏方式和适用范围。
