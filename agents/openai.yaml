@@ -1,0 +1,6 @@
+interface:
+  display_name: "System Storage JYLab"
+  short_description: "只读磁盘分析与专业清理决策报告"
+  default_prompt: "Use $system-storage-jylab to analyze my computer storage usage and generate a professional cleanup report."
+policy:
+  allow_implicit_invocation: true
