@@ -122,13 +122,12 @@ python3 scripts/build_report.py /tmp/storage_analysis.json ~/Desktop/storage-rep
 
 仅使用 Python 3 标准库，无第三方依赖。
 
-## 发布前检查
+## 公开仓库说明
 
-- 我在发布前会确认仓库内不存在 `storage_scan*.json`、`storage_analysis*.json`、`*-workbench.html`、`*-report.html` 等运行产物。
-- 我会确认仓库中不存在 `__pycache__/`、`.pyc`、临时日志、系统缩略图等无关文件。
-- 我会确认 README、SKILL、references 中只保留通用路径示例，不包含个人用户名、个人目录、企业内网地址或真实业务路径。
-- 如果我要准备演示报告截图，我会先核对截图内是否出现用户名、磁盘名称、项目目录名、聊天软件目录、云盘目录或客户数据。
-- 首次公开发布前，我会在一个干净目录重新打包或重新克隆后，再检查一次文件列表。
+- 我公开发布这个仓库时，只保留技能定义、说明文档、模板和脚本本身，不提交 `storage_scan*.json`、`storage_analysis*.json`、`*-workbench.html`、`*-report.html` 等运行产物。
+- 我不会把 `__pycache__/`、`.pyc`、临时日志、系统缩略图或其他本地调试残留纳入仓库内容。
+- 我在 README、SKILL 和 `references/` 中只保留通用路径示例，不写入个人用户名、个人目录、企业内网地址或真实业务路径。
+- 如果我提供演示截图、报告样例或其他展示材料，我会先完成脱敏，并单独说明数据来源和适用范围。
 
 ## 引用与来源说明
 
