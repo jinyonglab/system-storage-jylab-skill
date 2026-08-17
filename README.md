@@ -122,6 +122,12 @@ python3 scripts/build_report.py /tmp/storage_analysis.json ~/Desktop/storage-rep
 
 仅使用 Python 3 标准库，无第三方依赖。
 
+## 仓库元信息
+
+- 许可证见 `LICENSE`
+- 引用元数据见 `CITATION.cff`
+- 协作约定见 `CONTRIBUTING.md`
+
 ## 公开仓库说明
 
 - 我公开发布这个仓库时，只保留技能定义、说明文档、模板和脚本本身，不提交 `storage_scan*.json`、`storage_analysis*.json`、`*-workbench.html`、`*-report.html` 等运行产物。

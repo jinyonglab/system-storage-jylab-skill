@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or adapt this repository, please cite it using the metadata below."
+title: "system-storage-jylab"
+type: software
+authors:
+  - family-names: "jinyonglab"
+abstract: "A macOS and Windows read-only storage governance skill for scanning, analysis, risk-tiered cleanup guidance, and interactive HTML reporting."
+repository-code: "https://github.com/jinyonglab/system-storage-jylab-skill"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-08-17"
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "jinyonglab"
+  title: "system-storage-jylab"
+  repository-code: "https://github.com/jinyonglab/system-storage-jylab-skill"
+  license: "MIT"
+  version: "0.1.0"
+  date-released: "2026-08-17"
